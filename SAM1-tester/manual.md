@@ -1,4 +1,4 @@
-## sw/573/SAM1tester/doc/manual.htm ` ` 5-12-2020 
+## sw/573/SAM1tester/doc/manual.md ` ` 5-12-2020 
 ___
 Commands for the SAM1 tester are text scripts.  
 Command execution leads to result text, following the rules:
@@ -55,7 +55,8 @@ The implemented commands can be described as:
 
 <a name="help"></a>
 ### ?
-Show the rules of SAM1 tester (until now in the Dutch language).
+__?__  
+Show the rules of SAM1 tester (until now in the Dutch language).  
 The purpose of this command is showing that command names can contain non-alphanumerical tokens.  
 The command results in text like the start of this manual, with "SAM1 tester" replaced by "microcontroller".  
 
@@ -64,9 +65,9 @@ The command results in text like the start of this manual, with "SAM1 tester" re
 
 <a name="command"></a>
 ### command
-__command__ ?*arg ...*?
+__command__ ?*arg ...*?  
 Let SAM1 tester send a command to the device under test (DUT).  
-All arguments after __command__ are forwarded to the DUT
+All arguments after __command__ are forwarded to the DUT.  
 This command has no result, but lines received from the DUT will be returned through  
 the FTDI-interface preceded by `<` and a space, so the driver program of SAM1 tester  
 knows the difference between an answer from the tester and the DUT.  
@@ -175,7 +176,7 @@ The *pattern* is a `vbe`-word restricting the range of the command:
 2. `-` -- will show the values of all infonr with negative index, one line per group.
 3. `+` -- will show the values of all infonr with non-negative index, one line per group.
 4. __.__?*begin*??__.__*end*? -- will restrict *begin* as well as *end* to a valid `infonr`.
-5. *group*__.__?*begin*??__.__*end*? -- will restrict *group* to a valid `groupnr` and treat
+5. *group*__.__?*begin*??__.__*end*? -- will restrict *group* to a valid `groupnr` and treat  
 *begin* and *end* as indices that will be restricted to within the group.
 
 If the command has *value* parameters after *pattern* they will be stored within the range.  
