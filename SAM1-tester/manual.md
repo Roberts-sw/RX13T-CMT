@@ -1,4 +1,4 @@
-## sw/573/SAM1tester/doc/manual.md ` ` 5-12-2020 
+## sw/573/SAM1tester/doc/manual.md &nbsp;&nbsp;&nbsp;&nbsp; 5-12-2020 
 ___
 Commands for the SAM1 tester are text scripts.  
 Command execution leads to result text, following the rules:
