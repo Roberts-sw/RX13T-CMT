@@ -150,7 +150,7 @@ will show no output line with the empty __pin__ call.
 `pin` show the values of all available port pins  
 `pin A` show only the values of port A pins  
 `pin A3 o1` set pin A3 to output with bit value '1'  
-__NB__: a line shows the port name with thereafter the value of the port lsb at index 0.  
+__NB__: for each line the first value is the port name, followed by pin values in Little-endian order.  
 __NNB__: No peripheral function is changed with this command. The command test is meant for that.  
 
 
@@ -199,4 +199,4 @@ The result of this command is a readout list of the range determined by *pattern
 `var 2.0 1` set the value of the first `infonr` in `groupnr` 2 to 1.  
 `var 2. 2` set the value of the first `infonr` in `groupnr` 2 to 2.  
 `var 2.. 3` set the value of the first `infonr` in `groupnr` 2 to 3.  
-__NB__: a line shows the infonr of the first variable between parentheses before the values.  
+__NB__: for each line the value between parentheses is the infonr of the first variable.  
