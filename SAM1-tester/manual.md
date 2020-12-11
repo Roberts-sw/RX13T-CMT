@@ -199,3 +199,4 @@ The result of this command is a readout list of the range determined by *pattern
 `var 2.0 1` set the value of the first `infonr` in `groupnr` 2 to 1.  
 `var 2. 2` set the value of the first `infonr` in `groupnr` 2 to 2.  
 `var 2.. 3` set the value of the first `infonr` in `groupnr` 2 to 3.  
+__NB__: a line shows the infonr of the first variable between parentheses before the values.  
