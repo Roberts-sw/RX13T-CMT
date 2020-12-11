@@ -133,7 +133,7 @@ SAM1 tester IO-pin functionality can be changed to accomodate tests. *Pattern* c
 
 If the command has *value* parameter(s) after *pattern* they will be used to set IO-pin functionality.  
 *Value* can be any one token from `d u i n o p - 0 1` or one from `n o p` followed by one of `0 1`.  
-The resulting port pin(s) after the command will be:
+The resulting port pin(s) after the command will be:  
 `-` pin not touched by this command  
 `d` input with Rpd enabled (not available on RX13T)  
 `u` input with Rpu enabled  
